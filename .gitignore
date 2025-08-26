@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+.yarn/
+.yarn/cache
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+!.pnp.cjs
+
+# Next.js
+.next/
+out/
+build/
+
+# Environment variables
+.env.local
+.env
+
+# Misc
+.DS_Store
+*.log
