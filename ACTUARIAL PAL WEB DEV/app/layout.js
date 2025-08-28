@@ -1,17 +1,15 @@
+<<<<<<< HEAD
 // app/layout.js
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-
+=======
+>>>>>>> 84b15499094f1d2d6d070dece1bf0102c5bf3cdf
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
-        <div className="flex flex-col min-h-screen">
-          <Header />
-          <main className="flex-grow">{children}</main>
-          <Footer />
-        </div>
-      </body>
+      <body>{children}</body>
     </html>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 84b15499094f1d2d6d070dece1bf0102c5bf3cdf
